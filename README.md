@@ -9,3 +9,15 @@ This was implemented by Github Branch Source trait.
 ## How to use this plugin
 
 After installing go to the job configuration. Under "Branch sources" -> "GitHub" -> "Behaviors" click "Add" and select "Custom Github Commit Status For Unstable Builds" from the dropdown menu. Then you can select the checkbox if you want to mark unstable builds' commit statuses as success, or deselect it for default behavior.
+
+## Verify build
+
+```
+mvn verify
+```
+
+## Run the plugin with a complete jenkins instance
+
+```
+mvn hpi:run
+```
