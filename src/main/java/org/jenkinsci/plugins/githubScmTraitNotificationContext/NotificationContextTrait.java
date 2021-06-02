@@ -24,8 +24,8 @@ public class NotificationContextTrait extends SCMSourceTrait {
     private boolean shouldUnstableBeMarkedAsSuccess;
 
     @DataBoundConstructor
-    public NotificationContextTrait(String contextLabel, boolean typeSuffix) {
-        this.shouldUnstableBeMarkedAsSuccess = true;
+    public NotificationContextTrait(boolean shouldUnstableBeMarkedAsSuccess) {
+        this.shouldUnstableBeMarkedAsSuccess = shouldUnstableBeMarkedAsSuccess;
     }
 
     @Override

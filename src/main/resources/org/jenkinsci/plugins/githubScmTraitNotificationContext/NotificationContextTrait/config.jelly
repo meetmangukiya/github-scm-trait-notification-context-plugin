@@ -1,9 +1,6 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
-    <f:entry title="Apply Suffix" field="typeSuffix">
+    <f:entry title="Should UNSTABLE builds be marked as success?" field="shouldUnstableBeMarkedAsSuccess">
         <f:checkbox />
-    </f:entry>
-    <f:entry title="Label" field="contextLabel">
-        <f:textbox default="continuous-integration/jenkins"/>
     </f:entry>
 </j:jelly>
