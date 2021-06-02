@@ -39,7 +39,7 @@ public class NotificationContextTrait extends SCMSourceTrait {
         @NonNull
         @Override
         public String getDisplayName() {
-            return "Custom Github Notification Context";
+            return "Custom Github Commit Status For Unstable Builds";
         }
 
         @Override
