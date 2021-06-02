@@ -23,3 +23,8 @@ jobs:
         uses: skjolber/maven-cache-github-action@v1
         with:
           step: save
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: plugin-hpi
+          path: target/github-scm-trait-notification-context-unstable-commit-status.hpi
