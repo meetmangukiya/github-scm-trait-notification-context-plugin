@@ -14,8 +14,8 @@
         <jenkins.version>2.73.3</jenkins.version>
         <java.level>8</java.level>
     </properties>
-    <name>Github Custom Notification Context SCM Behaviour</name>
-    <description>A trait which allows the setting of a custom context in the Github status notifications</description>
+    <name>Github Custom Unstable Build Commit Status SCM Behaviour</name>
+    <description>A trait which allows customization of commit status for unstable builds.</description>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Github+Custom+Notification+Context+SCM+Behaviour</url>
     <licenses>
         <license>
