@@ -7,8 +7,8 @@
         <version>3.2</version>
         <relativePath />
     </parent>
-    <artifactId>github-scm-trait-notification-context</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <artifactId>github-scm-trait-notification-context-unstable-commit-status</artifactId>
+    <version>1.0.0-alpha</version>
     <packaging>hpi</packaging>
     <properties>
         <jenkins.version>2.73.3</jenkins.version>

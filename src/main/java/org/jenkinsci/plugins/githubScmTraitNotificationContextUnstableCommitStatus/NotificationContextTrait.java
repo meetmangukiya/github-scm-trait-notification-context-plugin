@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.githubScmTraitNotificationContext;
+package org.jenkinsci.plugins.githubScmTraitNotificationContextUnstableCommitStatus;
 
 import edu.umd.cs.findbugs.annotations.NonNull;
 import hudson.Extension;
